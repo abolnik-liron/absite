@@ -602,11 +602,10 @@
 		position: absolute;
 		float: none;
 		width: 200px;
-		top: 43px;
-		left: auto;
-		right: 15px;
+		top: 44px;
+		left: 0;
 		height: auto;
-		background-color: #1ABC9C;
+		background-color: #07bad3;
 		z-index: 11;
 	}
 

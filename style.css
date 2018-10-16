@@ -2112,7 +2112,7 @@ body.top-search-open #top-account { opacity: 0; }
 
 #page-menu-wrap {
 	z-index: 99;
-	background-color: #1ABC9C;
+	background-color: #07bad3;
 	-webkit-transform: translate3d(0,0,0);
 	-ms-transform: translate3d(0,0,0);
 	-o-transform: translate3d(0,0,0);
@@ -6473,7 +6473,7 @@ body:not(.device-sm):not(.device-xs) .countdown.countdown-large.coming-soon .cou
 	font-size: 14px;
 	height: 40px;
 	line-height: 40px;
-	background-color: #1ABC9C;
+	background-color: #07bad3;
 	color: #FFF;
 	font-weight: 700;
 	text-transform: uppercase;
@@ -6660,8 +6660,8 @@ body:not(.device-touch) .button {
 }
 
 .button.button-3d:hover {
-	background-color: #1ABC9C !important;
-	opacity: 0.9;
+	background-color: #07bad3 !important;
+	opacity: 0.7;
 }
 
 .button.button-3d.button-light:hover,
@@ -11491,7 +11491,7 @@ body:not(.device-touch) #gotoTop {
 
 .stretched #gotoTop { bottom: 30px; }
 
-#gotoTop:hover { background-color: #1ABC9C; }
+#gotoTop:hover { background-color: #07bad3; }
 
 
 /* ----------------------------------------------------------------

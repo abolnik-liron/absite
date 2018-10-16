@@ -2863,6 +2863,7 @@ body:not(.stretched) .slider-parallax .slider-parallax-inner { left: auto; }
 	height:100%;
 	margin: 0;
 	background: url('images/pattern2.png') repeat;
+
 }
 
 .swiper_wrapper .swiper-slide {
@@ -2872,6 +2873,8 @@ body:not(.stretched) .slider-parallax .slider-parallax-inner { left: auto; }
 	background-repeat: no-repeat;
 	background-size: cover;
 	overflow: hidden;
+	background-color: #5d5d5d;
+    background-blend-mode: overlay;
 }
 
 .swiper-slide [data-caption-animate] { -webkit-backface-visibility: hidden; }
@@ -3432,7 +3435,7 @@ body.stretched .container-fullwidth .breadcrumb { right: 60px !important; }
 
 .content-wrap {
 	position: relative;
-	padding: 80px 0;
+	/* padding: 80px 0; */
 }
 
 #content .container { position: relative; }
@@ -3640,7 +3643,7 @@ body:not(.device-touch) .portfolio {
 }
 
 .portfolio-item {
-	float: left;
+	float: right;
 	position: relative;
 	width: 25%;
 	height: auto;
@@ -7325,7 +7328,7 @@ body:not(.device-touch) .button.button-full strong {
 
 
 /* Promo - Mini - Right Align
------------------------------------------------------------------*/
+-----------------------------------------------------------------*/ƒ
 
 .promo.promo-mini.promo-right { text-align: right; }
 
@@ -7339,7 +7342,7 @@ body:not(.device-touch) .button.button-full strong {
 	position: relative;
 	margin-top: 20px;
 	padding: 0 0 0 80px;
-	cursor: pointer;
+	/* cursor: pointer; */
 }
 
 .feature-box:first-child { margin-top: 0; }
@@ -7842,11 +7845,11 @@ body:not(.device-touch) .button.button-full strong {
 
 .fbox-effect .fbox-icon i:hover:after,
 .fbox-effect:hover .fbox-icon i:after {
-	-webkit-transform: scale(1);
-	-moz-transform: scale(1);
-	-ms-transform: scale(1);
-	transform: scale(1);
-	opacity: 1;
+	-webkit-transform: scale(1.2);
+	-moz-transform: scale(1.2);
+	-ms-transform: scale(1.2);
+	transform: scale(1.2);
+	opacity: .1;
 }
 
 /* Icon Effects - Bordered

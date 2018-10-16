@@ -3262,7 +3262,7 @@ var SEMICOLON = SEMICOLON || {};
 						$(form).ajaxSubmit({
 							target: elementResult,
 							dataType: 'json',
-							resetForm: true,
+							resetForm: false,
 							success: function( data ) {
 								if( elementLoader == 'button' ) {
 									defButton.html( defButtonText );

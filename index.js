@@ -40,7 +40,7 @@ var sendEmail = (emailData) => {
 
         var mailOptions = {
             from: emailData['template-contactform-email'],
-            to: 'abolnikliron@gmail.com',
+            to: 'benbarda7@gmail.com',
             subject: emailData['template-contactform-subject'],
             text: text
         };
@@ -77,7 +77,7 @@ app.post('/sendEmail', async (req, response) => {
 });
 
 
-var server = app.listen(8080, () => {
+var server = app.listen(3000, () => {
     var host = server.address().address
     var port = server.address().port
 

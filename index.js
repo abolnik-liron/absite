@@ -20,8 +20,7 @@ var sendEmail = (emailData) => {
         var transporter = nodemailer.createTransport({
             service: 'gmail',
             auth: {
-                user: 'abolnikliron@gmail.com',
-                pass: 'Abolnik91'
+             
             }
         });
 

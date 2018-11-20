@@ -3663,7 +3663,7 @@ body:not(.device-touch) .portfolio {
 .portfolio-item .portfolio-image img {
 	display: block;
 	width: 100%;
-	height: auto;
+	height: 200px;
 }
 
 body:not(.device-touch):not(.device-sm):not(.device-xs) .portfolio-notitle .portfolio-image img {

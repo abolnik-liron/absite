@@ -39,7 +39,7 @@ var sendEmail = (emailData) => {
 
         var mailOptions = {
             from: emailData['template-contactform-email'],
-            to: 'benbarda7@gmail.com',
+            to: 'info@ab-heightworks.co.il',
             subject: emailData['template-contactform-subject'],
             text: text
         };
@@ -62,12 +62,12 @@ app.post('/sendEmail', async (req, response) => {
     let email = await sendEmail(req.body)
     if (email) {
         return response.status(200).json({
-            message: 'המייל נשלח בהצלחה',
+            message: 'ההודעה נשלחה בהצלחה, נציגנו יצור קשר בהקדם.',
             obj: email
         });
     } else {
         return response.status(500).json({
-            message: 'שגיאה',
+            message: 'שגיאה בשליחה',
             obj: email
         });
     }
